@@ -8,7 +8,9 @@ namespace DemoGitGroup.Controllers
         public IActionResult Index(int id,int y)
 
         {
-            Console.WriteLine("vikash implenentayi");
+            Console.WriteLine("Hello");
+            Console.WriteLine("Testi, working now?");
+
             return View();
            
         }
