@@ -6,6 +6,7 @@ namespace DemoGitGroup.Controllers
     {
         public IActionResult Index()
         {
+            Console.WriteLine("Hello");
             return View();
         }
     }
