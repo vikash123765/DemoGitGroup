@@ -7,6 +7,7 @@ namespace DemoGitGroup.Controllers
         public IActionResult Index()
         {
             return View();
+            Console.WriteLine("vikash implemnation");
         }
     }
 }
