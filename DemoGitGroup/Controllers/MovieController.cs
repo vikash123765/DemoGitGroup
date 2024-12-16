@@ -4,7 +4,7 @@ namespace DemoGitGroup.Controllers
 {
     public class MovieController : Controller
     {
-        public IActionResult Index(int id)
+        public IActionResult Index(int id , string std)
         {
             Console.WriteLine("Hello");
             return View();
